@@ -64,7 +64,7 @@ end
 cups_of_flour = 2
 has_sauce = true
 
-if cups_of_flour <= 1 || has_sauce = false
+if cups_of_flour <= 1 || has_sauce == false
   p "I cannot make pizza"
 else p "I can make pizza"
 end
