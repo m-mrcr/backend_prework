@@ -11,15 +11,25 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
+def sum(num_1, num_2)
+  p num_1 + num_2
+end
+
+sum(2, 2)
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+
+def art_id(artist, sample_work)
+  p "The artist #{artist} created the piece '#{sample_work}'."
+end
+
+art_id("Vincent Van Gogh", "Starry Night")
