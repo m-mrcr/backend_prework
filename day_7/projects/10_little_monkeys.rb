@@ -7,26 +7,24 @@ class LittleMonkeys
   end
 
  def rhyme
-   counter = @number
-
-   counter.times do
-     if counter > 1
-       puts "#{counter.humanize.capitalize} little monkeys jumping on the bed,"
+   @number.times do
+     if @number > 1
+       puts "#{@number.humanize.capitalize} little monkeys jumping on the bed,"
        puts "One fell off and bumped his head,"
        puts "Mama called the doctor and the doctor said,"
        puts '"No more monkeys jumping on the bed!"'
        puts "\n"
-       counter -= 1
+       @number -= 1
      else
        puts "One little monkey jumping on the bed,"
        puts "He fell off and bumped his head,"
        puts "Mama called the doctor and the doctor said,"
        puts '"Get those monkeys right to bed!"'
-       counter -= 1
+       @number -= 1
      end
    end
  end
 end
 
-little_monkeys = LittleMonkeys.new(87)
+little_monkeys = LittleMonkeys.new(100)
 little_monkeys.rhyme
