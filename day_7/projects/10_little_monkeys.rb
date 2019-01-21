@@ -28,5 +28,5 @@ class LittleMonkeys
  end
 end
 
-little_monkeys = LittleMonkeys.new(999)
+little_monkeys = LittleMonkeys.new(87)
 little_monkeys.rhyme
